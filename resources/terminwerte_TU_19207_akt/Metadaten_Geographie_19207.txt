@@ -1,0 +1,2 @@
+Stations_id;Stationshoehe;Geogr.Breite;Geogr.Laenge;von_datum;bis_datum;Stationsname
+ 19207;   16.00; 53.8178; 12.0645;20200218;        ;Gülzow-Prüzen

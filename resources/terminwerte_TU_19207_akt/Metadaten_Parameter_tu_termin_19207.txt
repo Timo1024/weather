@@ -1,0 +1,5 @@
+Stations_ID;Von_Datum;Bis_Datum;Stationsname;Parameter;Parameterbeschreibung;Einheit;Datenquelle (Strukturversion=SV);Zusatz-Info;Besonderheiten;Literaturhinweis;eor;
+19207;20230401;20240219;Gülzow-Prüzen;RF_TER;Terminwerte der relativen Feuchte;%;Klimadaten aus der Klimaroutine nach 1.4.2001, generiert aus SYNOP-Meldungen (3 Termine 06, 12, 18 UTC und Tageswerte aus stündlichen Werten oder Beobachtungen an Hauptterminen);Terminwerte in UTC;;;eor;
+19207;20230401;20240219;Gülzow-Prüzen;TT_TER;Terminwerte der Lufttemperatur;°C;Klimadaten aus der Klimaroutine nach 1.4.2001, generiert aus SYNOP-Meldungen (3 Termine 06, 12, 18 UTC und Tageswerte aus stündlichen Werten oder Beobachtungen an Hauptterminen);Terminwerte in UTC;;;eor;
+Legende: FT  = Folgetag; GZ = Gesetzliche Zeit
+generiert: 20.02.2024 --  Deutscher Wetterdienst  --

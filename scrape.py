@@ -2,6 +2,14 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import folium
 from sklearn.cluster import KMeans
+import requests
+import json
+
+url = 'https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended'
+
+headers = {
+    'Accept': 'application/json'
+}
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -35,7 +43,7 @@ df = pd.DataFrame(data, columns=headers)
 df = df[~df['Ende'].str.contains('2024')]
 
 # get just the first two columns (Stationsname and Stations_id)
-df_important = df[['Stationsname', 'Stations_ID', 'Breite', 'Länge']]
+df_important = df[['Stationsname', 'Stations_ID', 'Stations-kennung', 'Breite', 'Länge']]
 
 # delete all duplicated rows
 df_important.drop_duplicates(subset='Stationsname', keep='first', inplace=True)

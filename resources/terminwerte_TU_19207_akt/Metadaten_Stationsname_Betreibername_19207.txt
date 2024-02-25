@@ -1,0 +1,6 @@
+Stations_ID;Stationsname;Von_Datum;Bis_Datum
+ 19207;Gülzow-Prüzen;20200218;
+
+Stations_ID;Betreibername;Von_Datum;Bis_Datum
+ 19207;DWD;20200218;
+generiert: 20.02.2024 --  Deutscher Wetterdienst  --
